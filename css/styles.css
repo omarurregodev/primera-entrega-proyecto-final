@@ -1,0 +1,264 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   box-sizing: border-box;
+}
+.backgroundBody {
+    background-image: url('../img/index_img.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 15px;
+    background-color: #1A374D;
+    box-shadow: 10px 5px 5px black;
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu li {
+    margin: 10px 15px;
+    text-transform: uppercase;
+}
+.menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #6998AB;
+}
+.menu a:hover {
+    font-weight: bold;
+    color: #B1D0E0;
+    border-bottom: 0.5px solid #B1D0E0;
+}
+.homePage {
+    width: 100%;
+    height: 700px;
+    background: rgba(105, 152, 171, 0.65);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.textoHomepage {
+    font-size: xx-large;
+    text-align: center;
+    padding: 0px 400px;
+    color: #1A374D;
+}
+
+.nosotrosSection {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #1A374D;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.nosotrosSection > .nosotrosClm {
+    width: 50%;
+    padding: 10px;
+}
+
+.nosotrosTitulo {
+    text-align: center;
+    color: #B1D0E0;
+    font-size: xx-large;
+}
+.nosotrosParrafo {
+    padding: 35px 20px;
+    text-align: center;
+    color: #B1D0E0;
+}
+.img-nosotros {
+    height: 500px;
+}
+.iconosSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    background-color: #1A374D;
+}
+.iconosSection > div {
+    margin: 30px;
+}
+.itemFlex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.itemFlex > p{
+    padding: 10px 0px;
+    color: #B1D0E0;
+}
+.serviciosSection {
+    display: flex;
+    width: 100%;
+    height: 500px;
+    background-color: #1A374D;
+    align-items: center;
+    justify-content: center;
+}
+.serviciosSection > div {
+    width: 50%;
+    padding: 10px;
+}
+
+.serviciosTitulo {
+    text-align: center;
+    color: #B1D0E0;
+    font-size: xx-large;
+}
+.serviciosLista {
+    padding: 35px 20px;
+    text-align: center;
+    color: #B1D0E0;
+    list-style: none;
+}
+.serviciosLista > li {
+    padding: 2px 0px;
+}
+.img-servicios {
+    height: 500px;
+    width: 100%;
+}
+.logosSection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    height: 300px;
+    background-color: #1A374D;
+}
+.logosSection > div {
+    margin: 30px;
+}
+.logoFlex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.footer-container {
+    background: #406882;
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.infoContacto {
+    padding-right: 70px;
+}
+.redesSociales {
+    padding-left: 70px;
+}
+.infoContacto ul {
+    list-style: none;
+    padding-top: 15px;
+}
+.redesSociales ul{
+    list-style: none;
+    padding-top: 15px;
+}
+.infoTitulo {
+    color: #1A374D;
+}
+.redesTitulo  {
+    color: #1A374D;
+}
+.infoItem {
+    padding-bottom: 5px;
+    color: #1A374D;
+}
+.redesItem a {
+    text-decoration: none;
+    color: #1A374D;
+}
+.redesItem a:hover {
+    color: #B1D0E0;
+}
+.redesItem {
+    padding-bottom: 5px;
+}
+.copyr {
+    background: #406882;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyParrafo {
+    font-weight: lighter;
+    font-style: italic;
+    color: #B1D0E0;
+}
+
+
+
+.contactoSection {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background: rgba(105, 152, 171, 0.65);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contactoSection > .contactoClm {
+    width: 50%;
+    padding: 10px;
+}
+
+.contactoTitulo {
+    text-align: center;
+    color: #B1D0E0;
+    font-size: xx-large;
+}
+.contactoForm {
+    padding: 35px 20px;
+    text-align: center;
+    color: #B1D0E0;
+}
+
+
+.trabajoSection {
+    display: flex;
+    width: 100%;
+    height: 700px;
+    background: rgba(105, 152, 171, 0.65);
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.trabajoTitulo {
+    text-align: center;
+    color: #B1D0E0;
+    font-size: xx-large;
+}
+.trabajoForm {
+    padding: 35px 20px;
+    text-align: center;
+    color: #B1D0E0;
+}
